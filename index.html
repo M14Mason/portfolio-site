@@ -5,6 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Mason Ngo | Photography Portfolio</title>
 <meta name="description" content="Wildlife at eye level, aviation at full speed, and public life as it happens.">
+<link rel="canonical" href="https://m14mason.github.io/portfolio-site/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23131312'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='28' font-weight='700' text-anchor='middle' fill='%23d4a557'%3EMN%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Mason Ngo">
+<meta property="og:title" content="Mason Ngo | Photography Portfolio">
+<meta property="og:description" content="Wildlife at eye level, aviation at full speed, and public life as it happens.">
+<meta property="og:url" content="https://m14mason.github.io/portfolio-site/">
+<meta property="og:image" content="https://m14mason.github.io/portfolio-site/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Mason Ngo, photography portfolio">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mason Ngo | Photography Portfolio">
+<meta name="twitter:description" content="Wildlife at eye level, aviation at full speed, and public life as it happens.">
+<meta name="twitter:image" content="https://m14mason.github.io/portfolio-site/og-image.jpg">
 <meta name="theme-color" content="#131312">
 <script>
   /* Theme first (no flash), then hide animated elements only when motion is allowed. A timer always reveals them. */
@@ -48,6 +63,15 @@
   header.hero { position: relative; overflow: hidden; background: radial-gradient(120% 90% at 85% 0%, var(--bg-raised), var(--bg) 70%); border-bottom: 1px solid var(--line); }
   #bg3d { position: absolute; inset: 0; width: 100%; height: 100%; display: block; pointer-events: none; opacity: 0; transition: opacity 1.4s ease; }
   #bg3d.on { opacity: 1; }
+  /* Header photo: the hero is always dark so text reads over the picture, in either theme. */
+  header.hero.has-photo { --text: #f4f0e8; --muted: #cdc7bb; --faint: #a8a296; --line: rgba(255,255,255,.2);
+                          --accent: #d4a557; --accent-ink: #17140e; color: var(--text); background: #131312; }
+  .hero-photo { position: absolute; inset: 0; }
+  .hero-photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: var(--focus, 50% 40%); }
+  .hero-shade { position: absolute; inset: 0;
+    background: linear-gradient(90deg, rgba(14,14,13,.9) 0%, rgba(14,14,13,.66) 42%, rgba(14,14,13,.18) 100%),
+                linear-gradient(0deg, rgba(14,14,13,.6), rgba(14,14,13,0) 45%); }
+  @media (max-width: 700px) { .hero-shade { background: linear-gradient(0deg, rgba(14,14,13,.92) 0%, rgba(14,14,13,.7) 55%, rgba(14,14,13,.45) 100%); } }
   .topbar { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 22px; padding-bottom: 22px; }
   .brand { font-weight: 650; letter-spacing: -.01em; text-decoration: none; font-size: 1rem; }
   .topnav { display: flex; align-items: center; gap: 4px; }
@@ -61,6 +85,8 @@
   [data-theme="dark"] .i-moon, [data-theme="light"] .i-sun { display: none; }
   .hero-content { position: relative; padding-top: 72px; padding-bottom: 88px; max-width: 900px; margin-left: 0; }
   @media (max-width: 600px) { .hero-content { padding-top: 40px; padding-bottom: 56px; } }
+  .has-photo .hero-content { padding-top: 96px; padding-bottom: 132px; }
+  @media (max-width: 600px) { .has-photo .hero-content { padding-top: 56px; padding-bottom: 72px; } }
   h1 { margin: 14px 0 0; font-size: clamp(2.8rem, 8vw, 5.6rem); line-height: .98; font-weight: 700; letter-spacing: -.035em; }
   .lede { margin: 22px 0 0; max-width: 34em; font-size: clamp(1.05rem, 1.9vw, 1.3rem); color: var(--muted); line-height: 1.5; }
   .stats { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 28px 0 0; padding: 0; list-style: none; font-size: .86rem; color: var(--faint); }
@@ -84,7 +110,7 @@
 
   /* ---- Work ---- */
   main { padding-top: 48px; padding-bottom: 96px; }
-  #work, #about { scroll-margin-top: 64px; }
+  #work, #about, #awards { scroll-margin-top: 64px; }
   @media (max-width: 600px) { main { padding-top: 32px; padding-bottom: 64px; } }
   .series-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; margin-bottom: 32px; }
   .series-head h2 { margin: 6px 0 0; font-size: clamp(1.6rem, 3.2vw, 2.3rem); letter-spacing: -.02em; line-height: 1.1; font-weight: 650; }
@@ -128,6 +154,24 @@
   .card-title { font-size: .95rem; font-weight: 600; letter-spacing: -.005em; }
   .card-meta { font-size: .78rem; color: var(--faint); white-space: nowrap; }
   .empty { color: var(--muted); }
+
+  /* ---- Awards ---- */
+  .awards { border-top: 1px solid var(--line); }
+  .awards .wrap { padding-top: 72px; padding-bottom: 72px; }
+  .awards-head h2 { margin: 8px 0 30px; font-size: clamp(1.6rem, 3vw, 2.2rem); letter-spacing: -.02em; font-weight: 650; }
+  @media (max-width: 600px) { .awards .wrap { padding-top: 52px; padding-bottom: 52px; } }
+  .award-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 18px; grid-template-columns: 1fr; }
+  @media (min-width: 760px) { .award-list { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1100px) { .award-list { grid-template-columns: repeat(3, 1fr); } }
+  .award-item { display: flex; align-items: center; gap: 14px; width: 100%; height: 100%; text-align: left; font: inherit; color: inherit;
+                padding: 16px 16px 16px 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; cursor: pointer; }
+  .award-item:hover { border-color: var(--accent); }
+  .award-item .ribbon { align-self: flex-start; margin-top: -16px; flex: none; filter: drop-shadow(0 3px 4px rgba(0,0,0,.4)); }
+  .award-item img { width: 76px; height: 76px; object-fit: cover; border-radius: 4px; flex: none; }
+  .award-text { display: grid; gap: 3px; min-width: 0; }
+  .award-text strong { font-size: 1.02rem; }
+  .award-event { color: var(--muted); font-size: .9rem; line-height: 1.35; }
+  .award-photo { color: var(--faint); font-size: .84rem; }
 
   /* ---- About ---- */
   .about { border-top: 1px solid var(--line); background: var(--bg-raised); }
@@ -185,12 +229,14 @@
 <script type="module" src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js" integrity="sha384-8/hf5tabFfIo0BPku31TKUvGIKpWGYaMwNtlSNqNyZzXgZCMd4lnOGWbJElML9dv" crossorigin="anonymous"></script>
 </head>
 <body>
-<header class="hero" id="top">
+<header class="hero has-photo" id="top">
+  <div class="hero-photo" aria-hidden="true" style="--focus:50% 45%"><img src="images/hero.jpg" alt="" fetchpriority="high" decoding="async"></div><div class="hero-shade"></div>
   <canvas id="bg3d" aria-hidden="true"></canvas>
   <div class="wrap topbar">
     <a class="brand js-name" href="#top">Mason Ngo</a>
     <nav class="topnav" aria-label="Site">
       <a class="optional" href="#work">Work</a>
+      <a class="optional" id="nav-awards" href="#awards" hidden>Awards</a>
       <a class="optional" href="#about">About</a>
       <a class="js-mailto" href="mailto:masonngo70@gmail.com">Contact</a>
       <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch theme">
@@ -230,6 +276,16 @@
     <div class="grid" id="grid" role="tabpanel" aria-live="polite"></div>
   </div>
 </main>
+
+<section class="awards" id="awards" aria-labelledby="awards-title" hidden>
+  <div class="wrap">
+    <div class="awards-head">
+      <p class="eyebrow">Recognition</p>
+      <h2 id="awards-title">Awards &amp; Exhibitions</h2>
+    </div>
+    <ul class="award-list" id="award-list"></ul>
+  </div>
+</section>
 
 <section class="about" id="about" aria-labelledby="about-title">
   <div class="wrap">
@@ -345,6 +401,8 @@ const PHOTOS = [{"category": "Female Mallard Duck", "filename": "images/Female M
   const stat = (num, label) => { const li = make('li'); li.append(make('strong', null, num), ' ' + label); stats.appendChild(li); };
   stat(String(PHOTOS.length), 'photographs');
   stat(String(categories.length), 'series');
+  const totalAwards = PHOTOS.reduce((n, p) => n + awardsOf(p).length, 0);
+  if (totalAwards) stat(String(totalAwards), totalAwards === 1 ? 'award' : 'awards');
   if (cameras.length) { const li = make('li', null, 'Shot on ' + cameras.join(', ')); stats.appendChild(li); }
 
   /* ---- Theme ---- */
@@ -571,6 +629,33 @@ const PHOTOS = [{"category": "Female Mallard Duck", "filename": "images/Female M
     const h = decodeURIComponent(location.hash.slice(1));
     if (categories.includes(h)) selectTab(h, true);
   });
+
+  /* ---- Awards & Exhibitions ---- */
+  const awardRows = [];
+  PHOTOS.forEach((p) => awardsOf(p).forEach((a) => awardRows.push({ a, p })));
+  awardRows.sort((x, y) => placeInfo(x.a)[4] - placeInfo(y.a)[4]);
+  if (awardRows.length) {
+    const list = $('#award-list');
+    awardRows.forEach(({ a, p }) => {
+      const li = make('li');
+      const btn = make('button', 'award-item');
+      btn.type = 'button';
+      btn.setAttribute('aria-label', 'Open ' + (p.title || p.alt) + ', ' + awardLabel(a));
+      const img = make('img');
+      img.src = enc(p.thumb || p.filename); img.alt = ''; img.loading = 'lazy'; img.decoding = 'async';
+      const text = make('span', 'award-text');
+      text.append(make('strong', null, placeInfo(a)[2]), make('span', 'award-event', a.event || ''),
+                  make('span', 'award-photo', '\u201c' + (p.title || p.category) + '\u201d'));
+      btn.append(ribbon(a, true), img, text);
+      btn.addEventListener('click', () => {
+        if (current !== 'All') selectTab('All', false);
+        openLightbox(visible.indexOf(p));
+      });
+      li.appendChild(btn); list.appendChild(li);
+    });
+    $('#awards').hidden = false;
+    $('#nav-awards').hidden = false;
+  }
 
   /* ---- Initial render: photos are visible even if no library loads ---- */
   const startHash = decodeURIComponent(location.hash.slice(1));

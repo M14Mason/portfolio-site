@@ -3,6 +3,7 @@
 !/.gitignore
 !/.nojekyll
 !/index.html
+!/og-image.jpg
 !/manifest.json
 !/images/
 /images/**
