@@ -9,7 +9,16 @@
     "camera": "Sony α6400",
     "title": "Mallard Pair Resting",
     "description": "A hen mallard sits sharp in the foreground while her drake rests soft behind her. Shot from grass level so the blades frame the pair and the background falls away to green.",
-    "award": "",
+    "awards": [
+      {
+        "place": "winner",
+        "event": "San Diego County Fair, Student Wildlife Photography"
+      },
+      {
+        "place": "3rd",
+        "event": "Off Track Gallery, July Open Show"
+      }
+    ],
     "alt": "Mallard Pair Resting, Female Mallard Duck"
   },
   {
@@ -22,7 +31,7 @@
     "camera": "Sony α6400",
     "title": "Female Mallard Profile",
     "description": "A tight profile showing the dark eye stripe and the orange edge of the bill. The out-of-focus field becomes an even wash of olive and gold.",
-    "award": "",
+    "awards": [],
     "alt": "Female Mallard Profile, Female Mallard Duck"
   },
   {
@@ -35,7 +44,7 @@
     "camera": "Sony α6400",
     "title": "Female Mallard Close-Up",
     "description": "Close enough to see individual feathers across the face. A pale, quiet background keeps all the attention on the eye.",
-    "award": "",
+    "awards": [],
     "alt": "Female Mallard Close-Up, Female Mallard Duck"
   },
   {
@@ -48,7 +57,7 @@
     "camera": "Sony α6400",
     "title": "Female Mallard Looking Back",
     "description": "Her own back feathers fill the foreground, layering the frame and pulling the eye straight to hers.",
-    "award": "",
+    "awards": [],
     "alt": "Female Mallard Looking Back, Female Mallard Duck"
   },
   {
@@ -61,7 +70,7 @@
     "camera": "Sony α6400",
     "title": "Female Mallard Sitting",
     "description": "Even light brings out the mottled browns of her plumage, with a flash of the blue-and-white wing patch at the edge of the frame.",
-    "award": "",
+    "awards": [],
     "alt": "Female Mallard Sitting, Female Mallard Duck"
   },
   {
@@ -74,7 +83,7 @@
     "camera": "Sony α6400",
     "title": "Female Mallard Portrait",
     "description": "A vertical portrait against soft green water, with the light catching every feather edge along her back.",
-    "award": "",
+    "awards": [],
     "alt": "Female Mallard Portrait, Female Mallard Duck"
   },
   {
@@ -87,7 +96,12 @@
     "camera": "Sony α6400",
     "title": "Mallard Duck Smiling",
     "description": "Caught mid-call with her bill open, she looks like she's grinning. Shot low to the water so the ripples break into green and silver around her.",
-    "award": "Award-winning photograph",
+    "awards": [
+      {
+        "place": "1st",
+        "event": "Off Track Gallery, October Monthly Show"
+      }
+    ],
     "alt": "Mallard Duck Smiling, Female Mallard Duck"
   },
   {
@@ -100,7 +114,7 @@
     "camera": "Sony α6400",
     "title": "Mallard in the Grass",
     "description": "Seed heads frame a drake resting at the water's edge. The dark background lets the white collar and pale bill stand out.",
-    "award": "",
+    "awards": [],
     "alt": "Mallard in the Grass, Male Mallard Duck"
   },
   {
@@ -113,7 +127,7 @@
     "camera": "Sony α6400",
     "title": "Male Mallard Close-Up",
     "description": "In the right light a drake's head shifts from blue to emerald. A close crop keeps the color, the yellow bill and the eye together.",
-    "award": "",
+    "awards": [],
     "alt": "Male Mallard Close-Up, Male Mallard Duck"
   },
   {
@@ -126,7 +140,7 @@
     "camera": "Sony α6400",
     "title": "Male Mallard Resting",
     "description": "A full-body portrait at eye level, with clean bands of green grass above and below.",
-    "award": "",
+    "awards": [],
     "alt": "Male Mallard Resting, Male Mallard Duck"
   },
   {
@@ -139,7 +153,7 @@
     "camera": "Sony α6400",
     "title": "Male Mallard Swimming",
     "description": "A drake in his late-summer eclipse plumage, when the green head fades but the yellow bill stays, swimming past the reeds with a hen behind him.",
-    "award": "",
+    "awards": [],
     "alt": "Male Mallard Swimming, Male Mallard Duck"
   },
   {
@@ -152,7 +166,7 @@
     "camera": "Sony α6400",
     "title": "Blue Angel Pulling Vapor",
     "description": "A Blue Angels F/A-18 pulls hard enough to wrap itself in condensation, with vapor trailing from the wingtips.",
-    "award": "",
+    "awards": [],
     "alt": "Blue Angel Pulling Vapor, Miramar Airshow"
   },
   {
@@ -165,7 +179,7 @@
     "camera": "Sony α6400",
     "title": "Two Blue Angels",
     "description": "Two Blue Angels jets bank in close formation, near enough to read the U.S. Navy lettering on the tails.",
-    "award": "",
+    "awards": [],
     "alt": "Two Blue Angels, Miramar Airshow"
   },
   {
@@ -178,7 +192,7 @@
     "camera": "Sony α6400",
     "title": "Three Jets with Smoke",
     "description": "Three jets cross the frame trailing white smoke, each holding its own line against an overcast sky.",
-    "award": "",
+    "awards": [],
     "alt": "Three Jets with Smoke, Miramar Airshow"
   },
   {
@@ -191,7 +205,7 @@
     "camera": "Sony α6400",
     "title": "Rooftop Spotters",
     "description": "Away from the flying, a team on a rooftop tracks the show with scopes and long lenses, silhouetted against the sky.",
-    "award": "",
+    "awards": [],
     "alt": "Rooftop Spotters, Miramar Airshow"
   },
   {
@@ -204,7 +218,7 @@
     "camera": "Sony α6400",
     "title": "Jet Going Straight Up",
     "description": "An F/A-18 climbs straight up with vapor streaming off the fuselage. The vertical frame exaggerates the climb.",
-    "award": "",
+    "awards": [],
     "alt": "Jet Going Straight Up, Miramar Airshow"
   },
   {
@@ -217,7 +231,7 @@
     "camera": "Sony α6400",
     "title": "Four Blue Angels",
     "description": "Four Blue Angels stacked in tight echelon with smoke on, shot from below against a flat grey sky.",
-    "award": "",
+    "awards": [],
     "alt": "Four Blue Angels, Miramar Airshow"
   },
   {
@@ -230,7 +244,7 @@
     "camera": "Sony α6400",
     "title": "Motocross No Hands",
     "description": "A freestyle motocross rider lets go of the bike at the top of a jump, framed against bright cloud.",
-    "award": "",
+    "awards": [],
     "alt": "Motocross No Hands, Miramar Airshow"
   },
   {
@@ -243,7 +257,7 @@
     "camera": "Sony α6400",
     "title": "Wall of Fire",
     "description": "The show's pyrotechnic wall of fire erupts behind a Blue Angels F/A-18 sitting on the runway.",
-    "award": "",
+    "awards": [],
     "alt": "Wall of Fire, Miramar Airshow"
   },
   {
@@ -256,7 +270,7 @@
     "camera": "Sony α6400",
     "title": "Parachutist with Flag",
     "description": "A parachutist descends with a full-size American flag and a trail of red smoke through the dark smoke left over from the pyrotechnics.",
-    "award": "",
+    "awards": [],
     "alt": "Parachutist with Flag, Miramar Airshow"
   },
   {
@@ -269,7 +283,7 @@
     "camera": "Nikon D5600",
     "title": "Owl in a Tree",
     "description": "An adult great horned owl tucked deep in the branches, its plumage almost the same color as the bark.",
-    "award": "",
+    "awards": [],
     "alt": "Owl in a Tree, Owls"
   },
   {
@@ -282,7 +296,7 @@
     "camera": "Nikon D5600",
     "title": "Baby Owls on a Branch",
     "description": "Downy great horned owlets crowd a single branch. One looks straight at the camera while its siblings face away.",
-    "award": "",
+    "awards": [],
     "alt": "Baby Owls on a Branch, Owls"
   },
   {
@@ -295,7 +309,7 @@
     "camera": "Sony α6400",
     "title": "Grebe Looking at Me",
     "description": "A pied-billed grebe looks straight into the lens, its reflection broken up by algae on the surface.",
-    "award": "",
+    "awards": [],
     "alt": "Grebe Looking at Me, Pied-billed grebe"
   },
   {
@@ -308,7 +322,7 @@
     "camera": "Sony α6400",
     "title": "Grebe Side Profile",
     "description": "A clean side profile showing the black band across the bill and the pale ring around the eye.",
-    "award": "",
+    "awards": [],
     "alt": "Grebe Side Profile, Pied-billed grebe"
   },
   {
@@ -321,7 +335,7 @@
     "camera": "Sony α6400",
     "title": "Grebe with a Water Drop",
     "description": "A single drop hangs from the grebe's bill, its body mirrored in the still water below.",
-    "award": "",
+    "awards": [],
     "alt": "Grebe with a Water Drop, Pied-billed grebe"
   },
   {
@@ -334,7 +348,7 @@
     "camera": "Sony α6400",
     "title": "Grebe Swallowing",
     "description": "The grebe tips its head back, bill open, mid-swallow.",
-    "award": "",
+    "awards": [],
     "alt": "Grebe Swallowing, Pied-billed grebe"
   },
   {
@@ -347,7 +361,7 @@
     "camera": "Canon EOS 2000D",
     "title": "No Kings Banner",
     "description": "A handmade banner reading 'We the People / No Kings in America (official since 1776)', hung on a weathered wooden fence.",
-    "award": "",
+    "awards": [],
     "alt": "No Kings Banner, Political"
   },
   {
@@ -360,7 +374,7 @@
     "camera": "Canon EOS 2000D",
     "title": "Impeach Sign",
     "description": "A single word on yellow poster board, held high against the sky next to a traffic signal.",
-    "award": "",
+    "awards": [],
     "alt": "Impeach Sign, Political"
   },
   {
@@ -373,7 +387,7 @@
     "camera": "Canon EOS 2000D",
     "title": "Lady Liberty Sign",
     "description": "A protester at the roadside holds an image of the Statue of Liberty covering her face.",
-    "award": "",
+    "awards": [],
     "alt": "Lady Liberty Sign, Political"
   },
   {
@@ -386,7 +400,7 @@
     "camera": "Canon EOS 2000D",
     "title": "Kid with Resist Sign",
     "description": "A child holds up a 'Resist Fascism' sign among the adults at the rally.",
-    "award": "",
+    "awards": [],
     "alt": "Kid with Resist Sign, Political"
   },
   {
@@ -399,7 +413,7 @@
     "camera": "Canon EOS 2000D",
     "title": "Congress Sign",
     "description": "A hand-lettered sign whose margins have filled up with notes and signatures from other marchers.",
-    "award": "",
+    "awards": [],
     "alt": "Congress Sign, Political"
   },
   {
@@ -412,7 +426,7 @@
     "camera": "Canon EOS 2000D",
     "title": "Collage Sign",
     "description": "A homemade collage sign built from cut-out photographs and lettering, held above the crowd.",
-    "award": "",
+    "awards": [],
     "alt": "Collage Sign, Political"
   },
   {
@@ -425,7 +439,7 @@
     "camera": "Sony α6400",
     "title": "Ruddy Duck Swimming",
     "description": "A male ruddy duck in breeding plumage: chestnut body, white cheek, sky-blue bill and a stiff tail cocked upright.",
-    "award": "",
+    "awards": [],
     "alt": "Ruddy Duck Swimming, Ruddy Duck"
   },
   {
@@ -438,7 +452,7 @@
     "camera": "Sony α6400",
     "title": "Ruddy Duck Tail Up",
     "description": "Seen nearly head-on, the bright blue bill and fanned tail look almost cartoonish against the dark water.",
-    "award": "",
+    "awards": [],
     "alt": "Ruddy Duck Tail Up, Ruddy Duck"
   }
 ]
